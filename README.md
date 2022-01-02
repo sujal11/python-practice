@@ -1,2 +1,0 @@
-# About 
-- Learning python basics
