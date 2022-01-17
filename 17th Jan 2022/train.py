@@ -19,6 +19,8 @@ class Train:
             self.seats=self.seats-1
         else:
             print("Sorry the train is full!")    
+    
+
 
 a=Train("RAJDHANI EXPRESS",50,250)
 a.getInfo()
