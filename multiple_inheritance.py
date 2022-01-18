@@ -7,8 +7,8 @@ class Employee:
 class Student:
     company="Youtube"        
         
-# **** SINGLE INHERITANCE EXAMPLE
-class Programmer(Employee,Student):
+
+class Programmer(Student,Employee):     # MULTIPLE INHERITANCE --> WHEN DERIVED CLASS HAVE MORE THAN ONE PARENT CLASS
     def getDetails(self):
         print(f"The employee name is {self.name} and his company is {self.company}")
 
