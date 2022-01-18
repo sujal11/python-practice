@@ -3,15 +3,15 @@ class Employee:
     def __init__(self,name):
         self.name=name       
         
+#  Mulitilevel Inheritance --> when there is more than one derived class of single base class       
 
-class Programmer(Employee):     # MULTIPLE INHERITANCE --> WHEN DERIVED CLASS HAVE MORE THAN ONE PARENT CLASS
-    def getDetails(self):
+class Programmer(Employee):     
         print(f"The Employee Name Is {self.name} And His Company Is {self.company}")
         
-class Student(Employee):
+class Student(Employee):  
     def getInfo(self):
         self.company="Youtube"
-        print(f"The Student Name Is {self.name} And His Company Is {self.company}")
+        print(f"The Student Name Is {self.name} And His Company Is {self.company}") 
 
 
 p=Programmer("Sujal")
