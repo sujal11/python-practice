@@ -12,6 +12,6 @@ class Programmer(Student,Employee):     # MULTIPLE INHERITANCE --> WHEN DERIVED 
     def getDetails(self):
         print(f"The employee name is {self.name} and his company is {self.company}")
 
-
+ 
 p=Programmer("sujal")
 p.getDetails()
