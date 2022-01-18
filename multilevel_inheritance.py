@@ -14,7 +14,7 @@ class Student(Programmer):   # --> Derived class of class Programmer
         self.company="Youtube"
         print(f"The Student Name Is {self.name} And His Company Is {self.company}") 
 
-
+  
 p=Programmer("Sujal")
 p.getDetails()
 s=Student("SUJAL GARG")
