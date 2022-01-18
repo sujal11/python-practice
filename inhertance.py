@@ -15,4 +15,4 @@ class Programmer(Employee):
 
 p=Programmer("sujal")
 p.getDetails()
-
+  
