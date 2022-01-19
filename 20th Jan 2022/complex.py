@@ -17,7 +17,7 @@ class Complex_num:
     def __str__(self):
         return f"{self.real} + {self.imag}i"
 
-c1=Complex_num(3,4)
-c2=Complex_num(4,5)
+c1=Complex_num(3,2)
+c2=Complex_num(1,7)
 print(c1+c2)
 print(c1*c2)    
