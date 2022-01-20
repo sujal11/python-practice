@@ -3,7 +3,7 @@ class Vector:
         self.vec=vec
 
     def __str__(self):
-      return f"{self.vec[0]}i + {self.vec[2]}j + {self.vec[2]}k"    
+      return f"{self.vec[0]}i + {self.vec[1]}j + {self.vec[2]}k"    
 
     def __add__(self,vec3):
         newList= []
