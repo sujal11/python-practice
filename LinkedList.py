@@ -5,7 +5,7 @@ from tkinter.messagebox import NO
 
 class Node:
    def __init__(self,data=None,next=None):
-      self.data=data
+      self.data=data 
       self.next=next 
 
 
