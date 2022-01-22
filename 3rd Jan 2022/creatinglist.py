@@ -5,4 +5,4 @@ f3=input("Enter Fruit Number 3: ")
 f4=input("Enter Fruit Number 4: ")
 f5=input("Enter Fruit Number 5: ")
 Fruitlist=[f1,f2,f3,f4,f5]
-print(Fruitlist) 
+print(Fruitlist)  
