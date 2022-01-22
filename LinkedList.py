@@ -73,7 +73,7 @@ class LinkedList:
         itr=self.head  
         count=0  
         while itr:
-            if count == index-1:
+            if count == index-1: 
                 itr.next=itr.next.next
                 break
             itr=itr.next
