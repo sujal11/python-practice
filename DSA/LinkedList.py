@@ -88,7 +88,7 @@ class LinkedList:
 
 
 
-l1=LinkedList()
+l1=LinkedList() 
 l1.insert_at_begining(10)  
 l1.insert_at_end(40)
 l1.print()        
