@@ -22,4 +22,27 @@ class Solution:
             i+=1
             continue
         return X     
-            
+
+PROBLEM 1588            
+
+Given an array of positive integers arr, calculate the sum of all possible odd-length subarrays.
+
+A subarray is a contiguous subsequence of the array.
+
+Return the sum of all odd-length subarrays of arr.
+
+
+
+
+
+**** SOLUTION ****
+class Solution:
+    def sumOddLengthSubarrays(self, arr: List[int]) -> int:
+           sum = 0
+           l = len(arr)
+           for i in range(l):
+                for j in range(i, l, 2):
+                    for k in range(i, j + 1, 1):
+                        sum += arr[k]
+           return sum
+ 
