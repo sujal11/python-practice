@@ -46,3 +46,26 @@ class Solution:
                         sum += arr[k]
            return sum
  
+
+
+ PROBLEM 1622
+
+Given two string arrays word1 and word2, return true if the two arrays represent the same string, and false otherwise.
+
+A string is represented by an array if the array elements concatenated in order forms the string.
+
+ ***** SOLUTION *****
+ class Solution:
+    def arrayStringsAreEqual(self, word1: List[str], word2: List[str]) -> bool:
+        sum1=""
+        sum2=""
+        for i in range(len(word1)):
+            sum1+=word1[i]
+            continue   
+        for j in range(len(word2)):
+            sum2+=word2[j]
+            continue    
+        if sum1==sum2:
+            return True
+        else:
+            return False
