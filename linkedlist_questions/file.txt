@@ -47,7 +47,7 @@ class Solution:
         while p!=None:
             if p.val==prev.val:
                 prev.next=p.next
-                p=p.next
+                p=p.next    
             else:
                 prev=p
                 p=p.next
