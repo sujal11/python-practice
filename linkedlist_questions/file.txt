@@ -11,7 +11,7 @@ It is guaranteed that the node to be deleted is not a tail node in the list.
 #         self.val = x
 #         self.next = None
 
-class Solution:   
+class Solution:       
     def deleteNode(self, node):          
         """
         :type node: ListNode
